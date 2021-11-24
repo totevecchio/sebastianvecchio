@@ -1,0 +1,29 @@
+.footer
+  width: 100%
+  min-height: 50px
+  padding-top: 30px
+  background-color: #333
+  color: #fafafa
+  @media (max-width: 600px)
+    padding-bottom: 30px
+
+  & a, a:visited
+    color: #f1f1f1
+    text-decoration: none
+
+  .wrapper
+    max-width: 800px
+    width: 100%
+    margin-right: auto
+    margin-left: auto
+    display: flex
+    justify-content: space-between
+    flex-direction: row
+    @media (max-width: 600px)
+      display: flex
+      flex-direction: column
+      p
+        text-align: center
+        padding: 10px 0
+    a
+      margin-left: 10px

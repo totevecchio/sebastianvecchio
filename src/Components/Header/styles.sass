@@ -1,0 +1,78 @@
+header
+  padding-bottom: 50px
+  background-color: #ff9900
+  text-align: center
+
+  h1
+    font-size: 4em
+    font-weight: 700
+    padding-top: 50px
+    @media (max-width: 600px)
+      font-size: 3.2em
+      width: 80%
+      margin-left: auto
+      margin-right: auto
+
+  h2
+    padding-top: 10px
+    font-size: 1.6em
+    font-weight: 700
+
+  .btn-contact
+    cursor: pointer
+    display: inline-block
+    margin-top: 30px
+    padding: 10px 15px
+    background-color: #ffffff
+    border-bottom-width: 3px
+    border-bottom-style: solid
+    border-bottom-color: #ababab
+    border-radius: 3px
+    text-decoration: none
+    color: black
+    &:hover
+      margin-top: 32px
+      border-bottom-width: 1px
+    &:active
+      margin-top: 33px
+      border-bottom-width: 0
+
+  .btn-menu
+    font-size: 30px
+    cursor: pointer
+    position: absolute
+    right: 30px
+    top: 30px
+
+.overlay
+  height: 100%
+  width: 0
+  position: fixed
+  z-index: 1
+  top: 0
+  left: 0
+  background-color: rgba(0, 0, 0, 0.9)
+  overflow-x: hidden
+  transition: 0.5s
+  &-content
+    position: relative
+    top: 25%
+    width: 100%
+    text-align: center
+    margin-top: 30px
+  & a
+    padding: 8px
+    text-decoration: none
+    font-size: 36px
+    color: #818181
+    display: block
+    transition: 0.3s
+    &:hover,
+    &:focus
+      color: #f1f1f1
+  .btn-close
+    cursor: pointer
+    position: absolute
+    right: 30px
+    top: 30px
+    font-size: 35px
