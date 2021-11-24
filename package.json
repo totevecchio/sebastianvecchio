@@ -1,7 +1,7 @@
 {
-  "name": "sebastianvecchio.github.io",
+  "name": "sebastianvecchio",
   "version": "0.1.0",
-  "homepage": "https://sebastianvecchio.github.io/",
+  "homepage": "https://totevecchio.github.io/sebastianvecchio/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
@@ -13,6 +13,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.24.0",
+    "gh-pages": "^3.2.3",
     "node-sass": "^6.0.1",
     "npm-demo-pkg-sebas": "^3.0.0",
     "react": "^17.0.2",
@@ -28,7 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
