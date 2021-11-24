@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sebastianvecchio/static/css/main.acdf60bb.chunk.css",
+    "main.js": "/sebastianvecchio/static/js/main.0f2c42ab.chunk.js",
+    "main.js.map": "/sebastianvecchio/static/js/main.0f2c42ab.chunk.js.map",
+    "runtime-main.js": "/sebastianvecchio/static/js/runtime-main.faaa4b0e.js",
+    "runtime-main.js.map": "/sebastianvecchio/static/js/runtime-main.faaa4b0e.js.map",
+    "static/css/2.631938c6.chunk.css": "/sebastianvecchio/static/css/2.631938c6.chunk.css",
+    "static/js/2.977f0553.chunk.js": "/sebastianvecchio/static/js/2.977f0553.chunk.js",
+    "static/js/2.977f0553.chunk.js.map": "/sebastianvecchio/static/js/2.977f0553.chunk.js.map",
+    "index.html": "/sebastianvecchio/index.html",
+    "static/css/2.631938c6.chunk.css.map": "/sebastianvecchio/static/css/2.631938c6.chunk.css.map",
+    "static/css/main.acdf60bb.chunk.css.map": "/sebastianvecchio/static/css/main.acdf60bb.chunk.css.map",
+    "static/js/2.977f0553.chunk.js.LICENSE.txt": "/sebastianvecchio/static/js/2.977f0553.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.faaa4b0e.js",
+    "static/css/2.631938c6.chunk.css",
+    "static/js/2.977f0553.chunk.js",
+    "static/css/main.acdf60bb.chunk.css",
+    "static/js/main.0f2c42ab.chunk.js"
+  ]
+}
