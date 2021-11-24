@@ -15,7 +15,7 @@ const Footer = () => (
         </a>
       </p>
       <p className="right">
-        <a href="https://github.com/nicolasdanelon/nicolasdanelon.github.io/"
+        <a href="https://github.com/totevecchio/sebastianvecchio"
            target="_blank"
            rel="noreferrer"
         >
